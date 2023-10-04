@@ -10,81 +10,78 @@ body, h1, h2, h3, p, ul, ol {
     padding: 20px;
   }
   
- 
-
-#img-my {
-  width: 100px;
-  height: 100px;
-}
-header {
-background-color: #287ec4f9;
-color: #ffffff;
-text-align: center;
-padding:10px;
-}
-h2 {
-font-size: 24px;
-margin-bottom: 10px;
-}
-
-h3 {
-font-size: 18px;
-margin-bottom: 5px;
-}
-
-.education-item, .project-item,.exp {
-margin-bottom: 30px;
-}
-
-ul {
-list-style: none;
-padding-left: 0;
-}
-
-li {
-margin-bottom: 5px;
-}
-
-a {
-color: #0078d4;
-text-decoration: none;
-}
-
-a:hover {
-text-decoration: underline;
-}
-header h1 {
-font-size: 50px;
-}
-
-header p {
-font-size: 20x;
-}
-#education{
-background-color:lightgoldenrodyellow;
-}
-#projects{
-background-color:#E0FFFF;
-}
-#Certificates{
-background-color:#98FB98;
-}
-#experiences{
-margin-bottom: 30px;
-}
+ #img-my {
+            width: 150px;
+            height: 150px;
+        }
+ header {
+    background-color: #287ec4f9;
+    color: #ffffff;
+    text-align: center;
+    padding:10px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   
-  #Certificates ul {
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .education-item, .project-item,.exp,.linkedin {
+    margin-bottom: 30px;
+  }
+  .objective h2{
+    color:red
+  }
+  ul {
     list-style: none;
     padding-left: 0;
   }
   
-  #Certificates li {
-    margin-bottom: 10px;
+  li {
+    margin-bottom: 5px;
   }
   
-  #additional-details ol {
-    padding-left: 20px;
+  a {
+    color: #0078d4;
+    text-decoration: none;
   }
   
+  a:hover {
+    text-decoration: underline;
+  }
+  header h1 {
+    font-size: 50px;
+  }
   
+  header p {
+    font-size: 18;
+  }
+  #education{
+    background-color:lightgoldenrodyellow;
+  }
+  #Certificates h2{
+   color:darkblue
+  }
+   #experience h2{
+color:darkgreen
+   }
   
+  #projects{
+    background-color:#E0FFF9;
+  
+  }
+  #additional-details{
+    background-color:#98FB91;
+  }
+#LinkedIn{
+    background-color:#00CCFF;
+    color:#ffffff
+}
+  #experiences{
+    margin-bottom: 30px;
+  }
